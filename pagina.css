@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#topo{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(94, 90, 88);
+    height: 88px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 6px #000 solid;
+}
+
+#escolhas{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(175, 177, 92);
+    height: 435px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#partida{
+  display: flex;
+    flex-direction: row;
+    background-color: rgba(204, 179, 37, 0.938);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+#pontos{
+  display: flex;
+    flex-direction: row;
+    background-color: rgba(204, 179, 37, 0.938);
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 6px #000 solid;
+}
+#vencedor{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(204, 179, 37, 0.938);
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.botoes{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  margin: 40px 0px;
+  border-color: rgb(142, 231, 69);
+  border-radius: 8px;
+  outline: transparent;
+}
+
+.jogadas{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+}
+.placar{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2rem;
+}
+
+.Titulo{
+  font-family: Times, "Times New Roman", Georgia, serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: white;
+}
+
