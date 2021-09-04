@@ -21,6 +21,7 @@ fun pedra(){
     val computador = Random.nextInt(1, 4)
     if(computador == 1){
         partida.innerHTML = "Pedra vs Pedra"
+        vencedor.innerHTML="Empate"
     }
     if(computador == 2){
         partida.innerHTML = "Pedra vs Papel"
@@ -55,6 +56,7 @@ fun papel(){
     }
     if(computador == 2){
         partida.innerHTML = "Papel vs Papel"
+        vencedor.innerHTML="Empate"
     }
     if(computador == 3){
         partida.innerHTML = "Papel vs Tesoura"
@@ -89,6 +91,7 @@ fun tesoura(){
     }
     if(computador == 3){
         partida.innerHTML = "Tesoura vs Tesoura"
+        vencedor.innerHTML="Empate"
     }
     if (pontos!=null) 
            pontos.innerHTML = ("Jogador:$pontosJ Computador:$pontosC<br>")
