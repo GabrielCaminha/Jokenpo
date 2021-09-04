@@ -18,6 +18,7 @@ if (typeof kotlin === 'undefined') {
     }var computador = Random.Default.nextInt_vux9f0$(1, 4);
     if (computador === 1) {
       partida.innerHTML = 'Pedra vs Pedra';
+      vencedor.innerHTML = 'Empate';
     }if (computador === 2) {
       partida.innerHTML = 'Pedra vs Papel';
       pontosC = pontosC + 1 | 0;
@@ -45,6 +46,7 @@ if (typeof kotlin === 'undefined') {
       vencedor.innerHTML = 'Jogador Ganhou';
     }if (computador === 2) {
       partida.innerHTML = 'Papel vs Papel';
+      vencedor.innerHTML = 'Empate';
     }if (computador === 3) {
       partida.innerHTML = 'Papel vs Tesoura';
       pontosC = pontosC + 1 | 0;
@@ -72,6 +74,7 @@ if (typeof kotlin === 'undefined') {
       vencedor.innerHTML = 'Jogador Ganhou';
     }if (computador === 3) {
       partida.innerHTML = 'Tesoura vs Tesoura';
+      vencedor.innerHTML = 'Empate';
     }if (pontos != null)
       pontos.innerHTML = 'Jogador:' + pontosJ + ' Computador:' + pontosC + '<br>';
   }
